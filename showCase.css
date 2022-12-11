@@ -1,0 +1,61 @@
+
+
+body{
+    width: 98vw;
+    height: 100vh;
+    background-image: url("wallofChina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+}
+.container{
+    width: 97vw;
+    height: max-content;
+    padding-top: 25px;
+    color: rgb(49, 49, 49);
+}
+
+.activityContainer{
+    position: relative;
+    background-color: rgb(200, 211, 181);
+    height: max-content;
+    width: 40%;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.activityContainer video,
+.activityContainer img{
+    display: block;
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+
+
+#title{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins";
+    margin-bottom: 0;
+}
+
+#description{
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Poppins";
+    font-weight: normal;
+
+}
+span{
+    padding-left: 10px;
+}
+
+a{
+    display: block;
+    text-align: center;
+}
