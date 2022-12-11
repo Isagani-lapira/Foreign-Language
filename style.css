@@ -139,6 +139,8 @@
     width: 80%;
     line-height: 2em;
     padding: 25px;
+    border-right: 2px solid rgb(48, 48, 48);
+    margin-right: 10px;
 }
 
 #title,
