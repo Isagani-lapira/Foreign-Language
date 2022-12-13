@@ -37,6 +37,11 @@ body{
     border-radius: 15px;
 }
 
+.activityContainer audio{
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 #title{
