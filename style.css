@@ -111,17 +111,12 @@
     border-radius: 10px;
 }
 
-.projectContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .projectContainer video{
     width: 40%;
     height: 30%;
     border-radius: 10px;
-    margin-top: 25px;
+    display: block;
+    margin: 10px auto;
 }
 
 .activitySection{
@@ -213,6 +208,21 @@
 #act2{
     display: block;
     text-align: end;
+}
+
+a{
+    display: block;
+    text-align: center;
+}
+
+#driveLink img{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+#driveLink img:hover{
+    box-shadow: 0 2px 10px rgb(192, 190, 190);
 }
 
 
