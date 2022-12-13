@@ -7,18 +7,19 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     width: 97vw;
     height: max-content;
-    padding-top: 25px;
     color: rgb(49, 49, 49);
 }
 
 .activityContainer{
     position: relative;
-    background-color: rgb(200, 211, 181);
+    background-color: rgba(200, 211, 181, 0.596);
     height: max-content;
     width: 30%;
     border-radius: 25px;
