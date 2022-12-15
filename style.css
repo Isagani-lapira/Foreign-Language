@@ -220,6 +220,10 @@ a{
     height: 24px;
     border-radius: 100%;
 }
+#driveLink{
+    text-align:center;
+}
+
 
 #driveLink img:hover{
     box-shadow: 0 2px 10px rgb(192, 190, 190);
